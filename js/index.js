@@ -48,7 +48,8 @@ var app = {
     }
 };
 
-cordova.plugins.barcodeScanner.scan(
+function scan(){
+    cordova.plugins.barcodeScanner.scan(
       function (result) {
           alert("We got a barcode\n" +
                 "Result: " + result.text + "\n" +
@@ -71,3 +72,4 @@ cordova.plugins.barcodeScanner.scan(
           disableSuccessBeep: false // iOS
       }
    );
+}
