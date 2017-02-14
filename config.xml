@@ -3,10 +3,10 @@
 <widget xmlns = "http://www.w3.org/ns/widgets" 
    xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.tutorialspoint.onlineviewer" version = "1.0">
    
-   <name>Tutorials Point</name>
+   <name>Asistencias</name>
    
    <description>
-      Tutorials Point Online Viewer
+      Asistencias diarias
    </description>
    
    <author href = "http://tutorialspoint.com" email = "contact@tutorialspoint.com">
@@ -36,4 +36,5 @@
    <icon src = "res/icon/ios/icon-57-2x.png" gap:platform = "ios" width = "114" height = "114" />
    <icon src = "res/icon/ios/icon-72-2x.png" gap:platform = "ios" width = "144" height = "144" />
    
+   <plugin name="phonegap-plugin-barcodescanner" source="npm" />
 </widget>
